@@ -1,0 +1,40 @@
+Topics:  Locators, TestNG, Checkboxes, Radio Buttons, Dropdown, Alert
+
+// TC#1: Registration Form Page Testing
+
+    // 1. Open Chrome browser
+    // 2. Go to https://practice.cydeo.com/registration_form
+    // 3. Verify title is as expected:
+    // Expected: "Registration Form"
+
+
+
+// TC#2: Registration Form Page Filling Form Test
+
+    // 1. Open Chrome browser
+    // 2. Go to https://practice.cydeo.com/registration_form
+    // 3. Enter First name: "John"
+    // 4. Enter Last name: "Smith"
+    // 5. Enter Username: "johnsmith123"
+    // 6. Enter Email address: "john.smith@email.com"
+    // 7. Enter password: "John1234"
+    // 8. Enter Phone number: "123-456-7890"
+    // 9. Click to "Male" from Gender
+    // 10. Enter Date of birth "01/28/1990"
+    // 11. Select "Department of Engineering" from Department/Office dropdown
+    // 12. Select "SDET" from Job title dropdown
+    // 13. Click to "Java" from languages
+    // 14. Click to "Sign up" button
+    // 15. Verify text displayed on page
+    //     Expected: "Well done!"
+
+
+----------------------------------------------------------------
+
+// TC#3 : Alert practice
+    // 1. Open browser
+    // 2. Go to website: https://practice.cydeo.com/javascript_alerts
+    // 3. Click to “Click for JS Prompt” button
+    // 4. Send “hello” text to alert
+    // 5. Click to OK button from the alert
+    // 6. Verify “You entered: hello” text is displayed.
