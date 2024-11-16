@@ -62,10 +62,10 @@ public class IframeWindowHandleTest {
         // 7- Go back (Switch) to the first window.
         driver.switchTo().window(mainWindow);
 
-        // 8- Check the See Run Button Text. It must contain “Run >” text.
+        // 8- Check the See Run Button Text. It must contain “Run ❯” text.
         WebElement runBtn = driver.findElement(By.id("runbtn"));
 
-        Assert.assertEquals(runBtn.getText(), "Run >");
+        Assert.assertEquals(runBtn.getText(), "Run ❯");
     }
 
     @AfterMethod
