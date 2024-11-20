@@ -1,0 +1,33 @@
+Topics: Upload file, Actions, Synchronization
+
+
+// TC#1: Guru99 Upload Test
+  //1. Go to  “https://demo.guru99.com/test/upload”
+  //2. Upload file into Choose File
+  //3. Click terms of service check box
+  //4. Click Submit File button
+  //5. Verify expected message appeared.
+  // Expected: “1 file
+   // has been successfully uploaded.
+
+
+
+// TC#2: Action Test
+
+  //  1. Go to  "https://www.globalsqa.com/demo-site/draganddrop/"
+  //  2. Locate "High Tatras" and "High Tatras 2" as sources and  "Trash" as target elements
+  //  3. Drag and Drop "High Tatras" and "High Tatras 2" into "Trash"
+  //  4. Verify 2 images moved to the trash
+
+
+
+// TC#3: WebdriverWait practice
+
+// 1. Go to https://practice.cydeo.com/dynamic_loading/1
+// 2. Click to start
+// 3. Wait until loading bar disappears
+// 4. Assert username inputbox is displayed
+// 5. Enter username: tomsmith
+// 6. Enter password: incorrectpassword
+// 7. Click to Submit button
+// 8. Assert “Your password is invalid!” text is displayed.
